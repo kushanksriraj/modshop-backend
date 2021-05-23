@@ -10,7 +10,7 @@ const connectDB = () => {
     // suppress 'collection.ensureIndex is deprecated' warning
     useCreateIndex: true
   })
-    .then(() => console.log("Successfully connected to 'v2-modshop' DB."))
+    .then(() => console.log("Successfully connected to 'formula-quiz' DB."))
     .catch(err => console.log(err));
 }
 
